@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        .body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 490px;
+            background-color: grey;
+            /* border: 2px solid rgb(171, 11, 11); */
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 500px;
+            background-color: white;
+
+            /* border: 3px solid red; */
+            height: 100%;
+        }
+        .name{
+            margin-top: 20px;
+        }
+        .number{
+             margin-top: 20px;
+        }
+        .email{
+             margin-top: 20px;
+        }
+        .password{
+             margin-top: 20px;
+        }
+        .cpass{
+             margin-top: 20px;
+        }
+        .button{
+            margin-top: 20px;
+        }
+    </style>
+ </head>
+ <body>
+    <div class="body">
+        <div class="main"> <form action=""> 
+        <div class="name"><p id="name_p"></p> enter name <pre></pre><input type="text"id="a"></div>
+        <div class="number"><p id="num_p"></p>contact number <pre></pre><input type="number"  id="b"></div>
+        <div class="email"><p id="email_p"></p>enter email <pre></pre><input type=" email"  id="c"></div>
+        <div class="password"><p id="password_p"></p>password <pre></pre><input type=" password" id="d"></div>
+        <div class="cpass"><p id="cpass_p"></p>enter conform password <pre></pre><input type="text" name="" id="e"></div>
+        <div class="button"><button value="sign up" onclick="return check()">submit</button></div>
+        </div>
+        
+    
+    </form>
+    </div>
+
+    <script src="form.js"></script>
+ </body>
+ </htm
